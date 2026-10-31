@@ -9,6 +9,7 @@ A buildless, responsive professional profile. Static assets are in `dist/`; no d
 - The user-provided Google Drive URL points to the 2021 architecture and interiors portfolio. The Park image is extracted from page 10 (xref 657), and Parkers Restaurant from page 21 (xref 925). Both retain their original firms’ credits and are displayed separately from current Seattle work.
 - Visual reference: https://www.tobymathew.com/ (Archivo headings, Raleway text, Asap subheadings, white and light gray with navy #053369).
 - $12M is the sum of the résumé’s $7.5M and $4.5M savings figures; 385 homes is the sum of 178 and 207 units. Neither aggregate is a separate project claim.
+- The user corrected Jyoti’s title to Construction Manager throughout the site on October 31, 2026. The hosted résumé copy reflects that correction as well.
 
 ## Editing
 

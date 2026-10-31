@@ -6,3 +6,4 @@
 - Use short summaries and concise highlights. Preserve detail through a downloadable résumé and expandable project summaries.
 - Avoid invented credentials, testimonials, or project imagery. Separate the 2021 architecture portfolio from current Seattle construction projects.
 - Publish new Sites privately by default. Do not alter the audience without a request.
+- Use “Construction Manager” as Jyoti’s professional title everywhere on the site, including the profile, career titles, metadata, and downloadable résumé. Requested October 31, 2026.
