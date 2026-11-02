@@ -1,0 +1,585 @@
+{
+  "name": "Jyoti Bhadrashetti",
+  "title": "Construction Manager",
+  "email": "jbhadrashetti@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/jbhadrashetti",
+  "origin": "https://www.jyotib.com",
+  "resume": "/assets/jyoti-bhadrashetti-resume.pdf",
+  "intro": [
+    "I am a construction manager at SRM Construction in Seattle. I manage budgets, subcontractor buyout, contracts and owner reporting on multifamily housing, including Gridline Apartments and Altaire at Jackson Park.",
+    "Earlier I worked eight years in Mumbai and Dubai, first as an architect and then managing interior fit-outs for restaurants, clinics and retail."
+  ],
+  "roles": [
+    [
+      "January 2023–Present",
+      "Construction Manager",
+      "SRM Construction, Inc.",
+      "Seattle",
+      [
+        "Manage GMP budgets, trade bid packages and subcontractor buyout for Gridline Apartments (178 homes, $101 million) and Altaire at Jackson Park (207 affordable homes).",
+        "Track committed costs, forecasts, billings and change orders; prepare project financial updates for owners and lenders.",
+        "Helped deliver Altaire at Jackson Park’s 207 affordable homes three months ahead of the contractual schedule."
+      ]
+    ],
+    [
+      "April–December 2022",
+      "Project Engineer",
+      "SRM Construction, Inc.",
+      "Seattle",
+      [
+        "Managed RFIs and submittals across trades, coordinating responses with the architect, consultants, owner and site team.",
+        "Supported buyout, subcontract preparation and monthly cost reporting, keeping procurement and financial records current.",
+        "Coordinated documentation for the Evergreen Sustainable Development Standard (ESDS) process alongside permit renewals and safety inspections."
+      ]
+    ],
+    [
+      "2019–2022",
+      "Relocation and graduate study",
+      "Career transition",
+      "Seattle",
+      [
+        "Relocated to the United States and completed a Master’s in Construction Management, March 2021–June 2022."
+      ]
+    ],
+    [
+      "August 2017–April 2019",
+      "Pre-Construction Manager",
+      "JBC Design-Build LLC / Joga Ram Group",
+      "Dubai",
+      [
+        "Estimated construction and interior fit-out projects, translating client briefs into priced scopes and procurement plans.",
+        "Negotiated with vendors and subcontractors and procured finishes within project budgets.",
+        "Coordinated design changes with planning and commercial teams to account for cost and schedule effects."
+      ]
+    ],
+    [
+      "August 2015–July 2017",
+      "Construction Manager",
+      "Apple Fit Out Interiors LLC",
+      "Dubai",
+      [
+        "Coordinated design, technical submissions and site delivery for hospitality, healthcare and retail interiors.",
+        "Managed contractor procurement, RFIs and progress meetings to resolve scope and delivery issues.",
+        "Coordinated specialist inspections and commissioning, including the four-month Parkers Restaurant fit-out."
+      ]
+    ],
+    [
+      "December 2011–July 2015",
+      "Project Architect",
+      "Kapadia Associates Design LLP",
+      "Mumbai",
+      [
+        "Developed concepts, design development packages and issued-for-construction drawings for residential and commercial projects.",
+        "Coordinated structural and MEP design responses with the site team and resolved queries during site visits.",
+        "Prepared finish specifications and detailed drawings, including work on The Park in Worli."
+      ]
+    ]
+  ],
+  "education": [
+    [
+      "Master’s in Construction Management",
+      "University of Washington",
+      "March 2021–June 2022"
+    ],
+    [
+      "Bachelor of Architecture",
+      "University of Mumbai",
+      "August 2007–April 2012"
+    ]
+  ],
+  "qualifications": [
+    "LEED AP Building Design + Construction (BD+C), Green Business Certification Inc. (GBCI)",
+    "OSHA 30-hour training",
+    "Design-Build Institute of America (DBIA): core courses completed"
+  ],
+  "projects": [
+    {
+      "slug": "gridline",
+      "name": "Gridline Apartments",
+      "region": "Seattle",
+      "type": "Multifamily housing",
+      "location": "Capitol Hill, Seattle",
+      "firm": "SRM Construction",
+      "facts": [
+        [
+          "Location",
+          "1421 Harvard Ave, Seattle"
+        ],
+        [
+          "Type",
+          "Market-rate multifamily"
+        ],
+        [
+          "Project value",
+          "$101 million"
+        ],
+        [
+          "Size",
+          "178 homes"
+        ],
+        [
+          "Status",
+          "Completed"
+        ],
+        [
+          "Developer",
+          "SRM Development"
+        ]
+      ],
+      "summary": "Construction management for a 178-home, $101 million multifamily development in Capitol Hill.",
+      "source": "2026 résumé",
+      "featured": true,
+      "cardfacts": "Seattle · 178 homes · $101 million",
+      "role": "Construction Manager, SRM Construction. My work covered budget and contract management, subcontractor procurement, cost forecasting and owner reporting.",
+      "scope": "Managed commercial and procurement work for the north and west residential buildings, coordinating trade scopes, commitments, pay applications and change orders.",
+      "result": "The completed development provides 178 homes, with shared amenity spaces and rooftop decks.",
+      "photos": [],
+      "photo_slots": [
+        "Exterior at Harvard Avenue",
+        "Resident amenity space",
+        "Construction progress",
+        "Site plan"
+      ],
+      "urls": [
+        "https://www.srmdevelopment.com/portfolio/gridline-apartments/",
+        "https://www.srmdevelopment.com/wp-content/uploads/2022/05/SRM-Development-Quarterly-Newsletter_May-2022_compressed.pdf"
+      ]
+    },
+    {
+      "slug": "altaire-jackson",
+      "name": "Altaire at Jackson Park",
+      "region": "Seattle",
+      "type": "Affordable housing",
+      "location": "Seattle, Washington",
+      "firm": "SRM Construction",
+      "facts": [
+        [
+          "Location",
+          "14343 15th Ave NE, Seattle"
+        ],
+        [
+          "Type",
+          "Affordable multifamily"
+        ],
+        [
+          "Size",
+          "207 homes"
+        ],
+        [
+          "Occupancy milestone",
+          "January 14, 2026"
+        ],
+        [
+          "Developer",
+          "SRM Development"
+        ],
+        [
+          "Partner",
+          "Urban League of Metropolitan Seattle"
+        ]
+      ],
+      "summary": "Construction management for 207 affordable homes, finished three months ahead of the contractual schedule.",
+      "source": "2026 résumé",
+      "featured": true,
+      "cardfacts": "North Seattle · 207 affordable homes · 2026",
+      "role": "Construction Manager, SRM Construction. I managed procurement, project financials, subcontractor coordination, billing and owner reporting.",
+      "scope": "Coordinated trade buyout, contract scopes, cost projections and changes through construction and closeout for the affordable housing development.",
+      "result": "The project finished three months ahead of the contractual schedule. The certificate of occupancy was issued on January 14, 2026, allowing residents to begin moving in.",
+      "photos": [],
+      "photo_slots": [
+        "Exterior on 15th Avenue NE",
+        "Resident amenity space",
+        "Construction progress",
+        "Site plan"
+      ],
+      "urls": [
+        "https://www.srmdevelopment.com/portfolio/altaire-at-jackson-park/",
+        "https://www.linkedin.com/posts/srm-development-llc_affordablehousing-seattle-communityimpact-activity-7417665585590775809-nvST"
+      ]
+    },
+    {
+      "slug": "parkers",
+      "name": "Parkers Restaurant",
+      "region": "Dubai",
+      "type": "Hospitality · Interior fit-out",
+      "location": "The Dubai Mall, Dubai",
+      "firm": "Apple Fit Out Interiors",
+      "facts": [
+        [
+          "Location",
+          "The Dubai Mall, Dubai"
+        ],
+        [
+          "Type",
+          "Restaurant interior"
+        ],
+        [
+          "Value",
+          "AED 2.1 million"
+        ],
+        [
+          "Duration",
+          "4 months"
+        ],
+        [
+          "Completed",
+          "2016"
+        ],
+        [
+          "Delivery",
+          "Interior fit-out execution"
+        ]
+      ],
+      "summary": "Execution of a restaurant interior fit-out at The Dubai Mall, completed in four months.",
+      "source": "2021 portfolio, pages 21–23",
+      "featured": true,
+      "cardfacts": "Dubai · Hospitality fit-out · 2016",
+      "role": "Construction Manager, Apple Fit Out Interiors. The project scope was execution of the interior fit-out, with design and technical coordination, procurement and site delivery.",
+      "scope": "Coordinated specialist finishes, imported lighting, the storefront and back-of-house kitchen. Procurement had to account for custom materials and the mall’s fire-rating requirements.",
+      "result": "The restaurant fit-out was completed in 2016 over a four-month program, bringing the dining areas, servery and kitchen into one operating space.",
+      "photos": [
+        [
+          929,
+          21,
+          "The completed steel-and-glass storefront at The Dubai Mall, 2016."
+        ],
+        [
+          925,
+          21,
+          "Dining tables beside the glazed facade and planted wall, 2016."
+        ],
+        [
+          970,
+          22,
+          "The open servery and adjacent dining area after fit-out, 2016."
+        ],
+        [
+          964,
+          22,
+          "Back-of-house kitchen equipment and service area, 2016."
+        ]
+      ],
+      "urls": []
+    },
+    {
+      "slug": "prime-medical",
+      "name": "Prime Medical Centre & Pharmacy",
+      "region": "Dubai",
+      "type": "Healthcare · Design & build",
+      "location": "Reef Mall, Dubai",
+      "firm": "Apple Fit Out Interiors",
+      "facts": [
+        [
+          "Location",
+          "Reef Mall, Dubai"
+        ],
+        [
+          "Type",
+          "Healthcare interior"
+        ],
+        [
+          "Value",
+          "AED 1.7 million"
+        ],
+        [
+          "Duration",
+          "4 months"
+        ],
+        [
+          "Completed",
+          "2017"
+        ],
+        [
+          "Delivery",
+          "Design and build"
+        ]
+      ],
+      "summary": "Design and build of a medical center and pharmacy within Reef Mall.",
+      "source": "2021 portfolio, pages 26–28",
+      "featured": true,
+      "cardfacts": "Dubai · Healthcare interiors · 2017",
+      "role": "Construction Manager, Apple Fit Out Interiors. I coordinated design and technical submissions, procurement and delivery of the clinical and public spaces.",
+      "scope": "Fit the clinical program into the mall unit, including examination rooms, a lead-lined X-ray room, reception, waiting areas and a pharmacy. Material selection had to meet mall and Dubai Health Authority requirements within the project budget.",
+      "result": "The four-month project delivered the medical center and pharmacy interior in 2017. The gallery pairs design proposals with completed reception and waiting spaces.",
+      "photos": [
+        [
+          1055,
+          26,
+          "Reception desk and feature wall in the design proposal, 2017."
+        ],
+        [
+          1096,
+          27,
+          "Completed waiting area and nurse station, 2017."
+        ],
+        [
+          1102,
+          27,
+          "Completed reception with the waiting area alongside, 2017."
+        ],
+        [
+          1053,
+          26,
+          "Design proposal for a consultation and examination room, 2017."
+        ]
+      ],
+      "urls": []
+    },
+    {
+      "slug": "police-lounge",
+      "name": "Dubai Police Officers’ Club Lounge",
+      "region": "Dubai",
+      "type": "Commercial interiors · Design & build",
+      "location": "Al Wasl, Dubai",
+      "firm": "Joga Ram Group",
+      "facts": [
+        [
+          "Location",
+          "Al Wasl, Dubai"
+        ],
+        [
+          "Type",
+          "Commercial interior"
+        ],
+        [
+          "Value",
+          "AED 720,000"
+        ],
+        [
+          "Duration",
+          "2 months"
+        ],
+        [
+          "Completed",
+          "2018"
+        ],
+        [
+          "Delivery",
+          "Design and build"
+        ]
+      ],
+      "summary": "Preconstruction and procurement for the design and build of an officers’ club interior.",
+      "source": "2021 portfolio, pages 24–25",
+      "featured": true,
+      "cardfacts": "Dubai · Club interior · 2018",
+      "role": "Pre-Construction Manager, JBC Design-Build / Joga Ram Group. My work covered estimating, design coordination, finish procurement and subcontractor selection.",
+      "scope": "Coordinated the design and procurement of timber slats, marble finishes, glass partitions and integrated lighting, including the transitions between walls and ceilings.",
+      "result": "The club interior was delivered over a two-month program in 2018. The gallery shows the design proposal, installation stage and completed lounge and meeting room.",
+      "photos": [
+        [
+          1037,
+          25,
+          "The completed lounge with timber fins and green marble, 2018."
+        ],
+        [
+          1006,
+          24,
+          "Design proposal showing timber slats continuing into the ceiling, 2018."
+        ],
+        [
+          1031,
+          25,
+          "Timber ceiling fins during installation, 2018."
+        ],
+        [
+          1033,
+          25,
+          "The completed meeting room and integrated ceiling lighting, 2018."
+        ]
+      ],
+      "urls": []
+    },
+    {
+      "slug": "georg-jensen",
+      "name": "Georg Jensen",
+      "region": "Dubai",
+      "type": "Retail · Interior fit-out",
+      "location": "The Dubai Mall, Dubai",
+      "firm": "Joga Ram Group",
+      "facts": [
+        [
+          "Location",
+          "The Dubai Mall, Dubai"
+        ],
+        [
+          "Type",
+          "Retail interior"
+        ],
+        [
+          "Value",
+          "AED 835,560"
+        ],
+        [
+          "Duration",
+          "3 months"
+        ],
+        [
+          "Completed",
+          "2017"
+        ],
+        [
+          "Delivery",
+          "Interior fit-out execution"
+        ]
+      ],
+      "summary": "Execution of a retail interior fit-out at The Dubai Mall.",
+      "source": "2021 portfolio, pages 34–35",
+      "featured": false,
+      "cardfacts": "Dubai · Retail fit-out · 2017",
+      "role": "Pre-Construction Manager, Joga Ram Group. My responsibilities included estimating, procurement and subcontractor coordination.",
+      "scope": "Coordinated execution of the retail interior, including product displays, solid wood finishes and fire-rated materials required by the mall.",
+      "result": "The single-level retail fit-out was completed in 2017 over three months.",
+      "photos": [
+        [
+          1504,
+          34,
+          "Completed storefront and display windows at The Dubai Mall, 2017."
+        ],
+        [
+          1500,
+          34,
+          "Display counters and perimeter shelving in the completed store, 2017."
+        ],
+        [
+          1518,
+          35,
+          "Jewelry display counter and brand wall, 2017."
+        ],
+        [
+          1502,
+          34,
+          "Retail layout and display plan for the fit-out, 2017."
+        ]
+      ],
+      "urls": []
+    },
+    {
+      "slug": "burj-residence",
+      "name": "Burj Residence",
+      "region": "Dubai",
+      "type": "Residential interiors · Design & build",
+      "location": "Downtown Dubai",
+      "firm": "Joga Ram Group",
+      "facts": [
+        [
+          "Location",
+          "Downtown Dubai"
+        ],
+        [
+          "Type",
+          "Residential interior"
+        ],
+        [
+          "Value",
+          "AED 850,000"
+        ],
+        [
+          "Duration",
+          "3 months"
+        ],
+        [
+          "Delivery",
+          "Design and build"
+        ],
+        [
+          "Firm",
+          "Joga Ram Group"
+        ]
+      ],
+      "summary": "Residential interior design and build, incorporating selected existing finishes.",
+      "source": "2021 portfolio, pages 19–20",
+      "featured": false,
+      "cardfacts": "Dubai · Residential interior · Design and build",
+      "role": "Pre-Construction Manager, Joga Ram Group. My work covered estimating, design coordination, finish procurement and subcontractor selection.",
+      "scope": "Integrated new finishes and custom lighting with retained flooring, using a restrained palette of gray, beige and white.",
+      "result": "The design package coordinated room layouts and finish selections around the retained elements. The gallery shows design visualizations; the image dates are not recorded.",
+      "photos": [
+        [
+          898,
+          19,
+          "Family-room design with retained finishes; date not recorded."
+        ],
+        [
+          900,
+          19,
+          "Residential interior design proposal; date not recorded."
+        ],
+        [
+          902,
+          19,
+          "Residential finish and furniture proposal; date not recorded."
+        ],
+        [
+          912,
+          20,
+          "Room visualization from the interior design package; date not recorded."
+        ]
+      ],
+      "urls": []
+    },
+    {
+      "slug": "the-park",
+      "name": "The Park",
+      "region": "Mumbai",
+      "type": "Residential architecture",
+      "location": "Worli, Mumbai",
+      "firm": "Kapadia Associates Design LLP, in collaboration with WOHA",
+      "facts": [
+        [
+          "Location",
+          "Worli, Mumbai"
+        ],
+        [
+          "Type",
+          "Residential architecture"
+        ],
+        [
+          "Size",
+          "2,800 homes"
+        ],
+        [
+          "Site",
+          "17.5 acres"
+        ],
+        [
+          "Client",
+          "Lodha Group"
+        ],
+        [
+          "Design team",
+          "Kapadia Associates with WOHA"
+        ]
+      ],
+      "summary": "Architectural design and coordination for a high-rise residential development in Worli.",
+      "source": "2021 portfolio, page 10",
+      "featured": true,
+      "cardfacts": "Mumbai · Residential architecture · 17.5 acres",
+      "role": "Project Architect, Kapadia Associates Design LLP. I contributed to design development, construction drawings, finish specifications and consultant coordination as part of the architecture team.",
+      "scope": "Developed the residential design with the project team and coordinated architectural information with structural and MEP consultants. The wider master plan combined residential towers and shared landscaped spaces.",
+      "result": "The design work established tower forms, planted terraces and resident open spaces. These images are architectural visualizations and plans from the design phase, rather than completion photographs.",
+      "photos": [
+        [
+          655,
+          10,
+          "Tower elevation studies from the Mumbai design period, 2011–2015."
+        ],
+        [
+          657,
+          10,
+          "Visualization of planted terraces and shared landscape, 2011–2015."
+        ],
+        [
+          659,
+          10,
+          "Master-plan study showing the towers and open spaces, 2011–2015."
+        ],
+        [
+          null,
+          null,
+          "Additional project photograph pending approval."
+        ]
+      ],
+      "urls": []
+    }
+  ]
+}
