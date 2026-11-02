@@ -1,5 +1,117 @@
 [
   {
+    "slug": "gridline",
+    "index": 1,
+    "width": 800,
+    "height": 533,
+    "file": "/assets/projects/gridline-1-large.webp",
+    "source_url": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/92891/gridline(3).jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Gridline’s completed exterior with street-level glazing and upper residential floors.",
+    "credit": "Photo via Avenue5 Residential · Gridline gallery.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "gridline",
+    "index": 2,
+    "width": 2400,
+    "height": 1599,
+    "file": "/assets/projects/gridline-2-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_1-resized-scaled.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "The double-height resident lounge, with a fireplace, timber ceiling and mezzanine.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "gridline",
+    "index": 3,
+    "width": 2400,
+    "height": 1599,
+    "file": "/assets/projects/gridline-3-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_3-Resized-1-scaled.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Resident recreation room with a billiards table and seating beside the windows.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "gridline",
+    "index": 4,
+    "width": 2400,
+    "height": 1600,
+    "file": "/assets/projects/gridline-4-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_7-resized.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "A furnished model bedroom showing the completed residential finishes.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "altaire-jackson",
+    "index": 1,
+    "width": 1440,
+    "height": 809,
+    "file": "/assets/projects/altaire-jackson-1-large.webp",
+    "source_url": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/278745/185-web-or-mls-dji_20260323082325_0598_d.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Altaire at Jackson Park’s completed exterior and entrance on 15th Avenue NE.",
+    "credit": "Photo via SRM Development · Altaire at Jackson Park gallery.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "altaire-jackson",
+    "index": 2,
+    "width": 1440,
+    "height": 960,
+    "file": "/assets/projects/altaire-jackson-2-large.webp",
+    "source_url": "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/278745/17-web-or-mls-17-print-dsc_4880.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Resident community room with shared tables, seating and large windows.",
+    "credit": "Photo via SRM Development · Altaire at Jackson Park gallery.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "altaire-jackson",
+    "index": 3,
+    "width": 2048,
+    "height": 1365,
+    "file": "/assets/projects/altaire-jackson-3-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2024/01/116-web-or-mls-116-print-DSC_5435.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Completed apartment living area with hard-surface flooring and an adjoining kitchen.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
+    "slug": "altaire-jackson",
+    "index": 4,
+    "width": 2048,
+    "height": 1365,
+    "file": "/assets/projects/altaire-jackson-4-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2024/01/130-web-or-mls-131-print-DSC_5520.jpg",
+    "source_page": null,
+    "pdf_image_xref": null,
+    "caption": "Completed bedroom with carpeting, closet access and natural light.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified in source gallery",
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
+  },
+  {
     "slug": "parkers",
     "index": 1,
     "width": 1732,
@@ -11,7 +123,7 @@
     "caption": "The completed steel-and-glass storefront at The Dubai Mall, 2016.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "parkers",
@@ -25,7 +137,7 @@
     "caption": "Dining tables beside the glazed facade and planted wall, 2016.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "parkers",
@@ -39,7 +151,7 @@
     "caption": "The open servery and adjacent dining area after fit-out, 2016.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "parkers",
@@ -53,7 +165,7 @@
     "caption": "Back-of-house kitchen equipment and service area, 2016.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "prime-medical",
@@ -67,7 +179,7 @@
     "caption": "Reception desk and feature wall in the design proposal, 2017.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "prime-medical",
@@ -81,7 +193,7 @@
     "caption": "Completed waiting area and nurse station, 2017.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "prime-medical",
@@ -95,7 +207,7 @@
     "caption": "Completed reception with the waiting area alongside, 2017.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "prime-medical",
@@ -109,7 +221,7 @@
     "caption": "Design proposal for a consultation and examination room, 2017.",
     "credit": "Apple Fit Out Interiors",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "police-lounge",
@@ -123,7 +235,7 @@
     "caption": "The completed lounge with timber fins and green marble, 2018.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "police-lounge",
@@ -137,7 +249,7 @@
     "caption": "Design proposal showing timber slats continuing into the ceiling, 2018.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "police-lounge",
@@ -151,7 +263,7 @@
     "caption": "Timber ceiling fins during installation, 2018.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "police-lounge",
@@ -165,7 +277,7 @@
     "caption": "The completed meeting room and integrated ceiling lighting, 2018.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "georg-jensen",
@@ -179,7 +291,7 @@
     "caption": "Completed storefront and display windows at The Dubai Mall, 2017.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "georg-jensen",
@@ -193,7 +305,7 @@
     "caption": "Display counters and perimeter shelving in the completed store, 2017.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "georg-jensen",
@@ -207,7 +319,7 @@
     "caption": "Jewelry display counter and brand wall, 2017.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "georg-jensen",
@@ -221,7 +333,7 @@
     "caption": "Retail layout and display plan for the fit-out, 2017.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "burj-residence",
@@ -235,7 +347,7 @@
     "caption": "Family-room design with retained finishes; date not recorded.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "burj-residence",
@@ -249,7 +361,7 @@
     "caption": "Residential interior design proposal; date not recorded.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "burj-residence",
@@ -263,7 +375,7 @@
     "caption": "Residential finish and furniture proposal; date not recorded.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "burj-residence",
@@ -277,7 +389,7 @@
     "caption": "Room visualization from the interior design package; date not recorded.",
     "credit": "Joga Ram Group",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "the-park",
@@ -291,7 +403,7 @@
     "caption": "Tower elevation studies from the Mumbai design period, 2011–2015.",
     "credit": "Kapadia Associates Design LLP, in collaboration with WOHA",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "the-park",
@@ -305,7 +417,7 @@
     "caption": "Visualization of planted terraces and shared landscape, 2011–2015.",
     "credit": "Kapadia Associates Design LLP, in collaboration with WOHA",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   },
   {
     "slug": "the-park",
@@ -319,6 +431,6 @@
     "caption": "Master-plan study showing the towers and open spaces, 2011–2015.",
     "credit": "Kapadia Associates Design LLP, in collaboration with WOHA",
     "photographer": "Not identified in supplied portfolio",
-    "permission": "User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication"
+    "permission": "User reports Jyoti’s verbal approval to use and publish these images, November 2, 2026. No separate written license was supplied."
   }
 ]

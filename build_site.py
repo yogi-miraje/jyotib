@@ -57,7 +57,8 @@ for i,p in enumerate(PROJECTS):
  count=len(p['photos']) if p['photos'] else len(p['photo_slots'])
  for j in range(count):
   caption=p['photos'][j][2] if p['photos'] else p['photo_slots'][j]+'. Photograph or plan pending approval.'
-  credit=f'<span class="image-credit">Project imagery: {e(p["firm"])} · Jyoti Bhadrashetti’s portfolio. Photographer not identified.</span>' if p['photos'] and p['photos'][j][0] is not None else ''
+  photo_credit=p.get('photo_credits',[])[j] if j<len(p.get('photo_credits',[])) else p.get('photo_credit','Project imagery: '+p['firm']+' · Jyoti Bhadrashetti’s portfolio.')
+  credit=f'<span class="image-credit">{e(photo_credit)}</span>' if p['photos'] and p['photos'][j][0] is not None else ''
   gallery+=f'<figure>{picture(p,j)}<figcaption>{e(caption)}{credit}</figcaption></figure>'
  sequence=[item for item in PROJECTS if item['featured']] if p['featured'] else PROJECTS
  position=next(n for n,item in enumerate(sequence) if item['slug']==p['slug'])

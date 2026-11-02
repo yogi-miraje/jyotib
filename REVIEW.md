@@ -1,6 +1,6 @@
 # Jyoti site revision — publication review
 
-**Status: saved draft; publication held.** The November 2 brief requires Jyoti’s confirmation of facts and SRM’s permission for values, savings and photographs before publishing. No approval is inferred from the existing résumé or the public project pages.
+**Status: publication authorized by the user.** On November 2, 2026, the user instructed publication and then reported Jyoti’s verbal approval to use the images. This supersedes the earlier hold. No separate written license or independent factual confirmation is claimed; the research notes below remain an internal record.
 
 ## Ready to review
 
@@ -34,7 +34,7 @@
 
 No reusable license or written permission was located for Seattle project photography. SRM’s terms reserve reuse outside personal, noncommercial use for prior written permission. Avenue5’s gallery states all rights reserved. No SRM/Avenue5/listing/news image is copied, hotlinked or presented as approved.
 
-Seattle pages contain four clearly labeled slots: exterior, amenity/interior, construction progress and site plan. Social previews use unique typographic placeholders until an approved exterior can replace them. The exterior must become both the card image and `og:image` after approval.
+Seattle pages now contain four real photographs each: exterior, shared amenity space and residential interiors. Exterior images are used on the Projects cards and as project social previews. Sources and the user-reported verbal approval are recorded in asset-records.json.
 
 Existing Dubai/Mumbai images are extracted from the user-supplied portfolio and recorded by page and embedded-image reference in `asset-records.json`; original photographers are unidentified. Confirm reuse and final credit lines before publication. Images are exported as WebP with two responsive sizes and no artificial upscaling; each generated image is below 300 KB.
 
@@ -49,7 +49,7 @@ Official source / image-request references:
 - SRM team: https://www.srmdevelopment.com/who-we-are/
 - ESDS name: https://www.commerce.wa.gov/multifamily-rental-housing/evergreen-standard/
 
-SRM lists Bryan Robinson as Marketing Director and Leslie Flores as Marketing Specialist. A verified direct email and Jyoti’s intended marketing contact were not found in connected correspondence. **The permission request below is prepared but has not been sent.** It must go to a verified recipient, not a guessed email address.
+SRM lists Bryan Robinson as Marketing Director and Leslie Flores as Marketing Specialist. A verified direct email and Jyoti’s intended marketing contact were not found in connected correspondence. **The request below was prepared but not sent.** The user subsequently instructed image use and publication based on Jyoti’s verbal approval. No outreach is required for this update.
 
 ## Prepared request to SRM marketing
 

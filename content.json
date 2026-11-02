@@ -133,16 +133,37 @@
       "role": "Construction Manager, SRM Construction. My work covered budget and contract management, subcontractor procurement, cost forecasting and owner reporting.",
       "scope": "Managed commercial and procurement work for the north and west residential buildings, coordinating trade scopes, commitments, pay applications and change orders.",
       "result": "The completed development provides 178 homes, with shared amenity spaces and rooftop decks.",
-      "photos": [],
-      "photo_slots": [
-        "Exterior at Harvard Avenue",
-        "Resident amenity space",
-        "Construction progress",
-        "Site plan"
+      "photos": [
+        [
+          "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/92891/gridline(3).jpg",
+          null,
+          "Gridline’s completed exterior with street-level glazing and upper residential floors."
+        ],
+        [
+          "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_1-resized-scaled.jpg",
+          null,
+          "The double-height resident lounge, with a fireplace, timber ceiling and mezzanine."
+        ],
+        [
+          "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_3-Resized-1-scaled.jpg",
+          null,
+          "Resident recreation room with a billiards table and seating beside the windows."
+        ],
+        [
+          "https://www.srmdevelopment.com/wp-content/uploads/2022/03/Gridline_7-resized.jpg",
+          null,
+          "A furnished model bedroom showing the completed residential finishes."
+        ]
       ],
       "urls": [
         "https://www.srmdevelopment.com/portfolio/gridline-apartments/",
         "https://www.srmdevelopment.com/wp-content/uploads/2022/05/SRM-Development-Quarterly-Newsletter_May-2022_compressed.pdf"
+      ],
+      "photo_credits": [
+        "Photo via Avenue5 Residential · Gridline gallery.",
+        "Photo via SRM Development.",
+        "Photo via SRM Development.",
+        "Photo via SRM Development."
       ]
     },
     {
@@ -185,16 +206,37 @@
       "role": "Construction Manager, SRM Construction. I managed procurement, project financials, subcontractor coordination, billing and owner reporting.",
       "scope": "Coordinated trade buyout, contract scopes, cost projections and changes through construction and closeout for the affordable housing development.",
       "result": "The project finished three months ahead of the contractual schedule. The certificate of occupancy was issued on January 14, 2026, allowing residents to begin moving in.",
-      "photos": [],
-      "photo_slots": [
-        "Exterior on 15th Avenue NE",
-        "Resident amenity space",
-        "Construction progress",
-        "Site plan"
+      "photos": [
+        [
+          "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/278745/185-web-or-mls-dji_20260323082325_0598_d.jpg",
+          null,
+          "Altaire at Jackson Park’s completed exterior and entrance on 15th Avenue NE."
+        ],
+        [
+          "https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1440/s3/2/278745/17-web-or-mls-17-print-dsc_4880.jpg",
+          null,
+          "Resident community room with shared tables, seating and large windows."
+        ],
+        [
+          "https://www.srmdevelopment.com/wp-content/uploads/2024/01/116-web-or-mls-116-print-DSC_5435.jpg",
+          null,
+          "Completed apartment living area with hard-surface flooring and an adjoining kitchen."
+        ],
+        [
+          "https://www.srmdevelopment.com/wp-content/uploads/2024/01/130-web-or-mls-131-print-DSC_5520.jpg",
+          null,
+          "Completed bedroom with carpeting, closet access and natural light."
+        ]
       ],
       "urls": [
         "https://www.srmdevelopment.com/portfolio/altaire-at-jackson-park/",
         "https://www.linkedin.com/posts/srm-development-llc_affordablehousing-seattle-communityimpact-activity-7417665585590775809-nvST"
+      ],
+      "photo_credits": [
+        "Photo via SRM Development · Altaire at Jackson Park gallery.",
+        "Photo via SRM Development · Altaire at Jackson Park gallery.",
+        "Photo via SRM Development.",
+        "Photo via SRM Development."
       ]
     },
     {
