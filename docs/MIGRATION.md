@@ -36,10 +36,14 @@ Preserve mail and unrelated verification records. Enable Enforce HTTPS after Git
 
 ## Rollback
 
-Before migration, apex DNS returned `172.66.3.26` and `162.159.143.30`; `www` pointed to `custom-domains.chatgpt.site`. The former publication is retained during cutover. Reverting DNS restores it while propagation completes. To revert a future content change on GitHub, revert the corresponding commit and push to `main`.
+Before migration, apex DNS returned `172.66.3.26` and `162.159.143.30`; `www` pointed to `custom-domains.chatgpt.site`. The former publication is retained during cutover. The Sites custom-domain registrations and their Namecheap verification records have since been removed. Restoring Sites hosting would require explicitly reconnecting and verifying the domains as well as changing DNS. To revert a future content change on GitHub, revert the corresponding commit and push to `main`.
 
 ## Cutover status
 
 Local parity passed. [GitHub Pages build and deployment succeeded](https://github.com/yogi-miraje/jyotib/actions/runs/41539525048) on November 2, 2026. GitHub Actions is the configured publishing source and `www.jyotib.com` is the configured custom domain.
 
 On November 2, 2026, Namecheap DNS was updated to all four GitHub Pages A records and www CNAME yogi-miraje.github.io. Authoritative DNS confirms the changes. Mail and verification records were preserved. GitHub initially had no certificate request despite successful DNS validation. Removing and re-saving the custom domain in the GitHub Pages settings started provisioning; the certificate was approved on November 2, 2026 for both `jyotib.com` and `www.jyotib.com`. HTTPS enforcement is enabled. Both domains pass normal TLS validation, and the apex redirects to `https://www.jyotib.com/`.
+
+## Final hosting separation
+
+On November 2, 2026, both `jyotib.com` and `www.jyotib.com` were removed from the original ChatGPT Sites project. Its custom-domain list is empty. The two `_openai-site-verification` and two `_cf-custom-hostname` TXT records were removed from Namecheap. The four GitHub A records, `www` CNAME, and email settings were retained. The live HTTPS response identifies `Server: GitHub.com`; GitHub Pages has the approved certificate and HTTPS enforcement enabled. Published pages and assets have no ChatGPT Sites runtime dependency. The original Sites project is retained separately as an archive.
