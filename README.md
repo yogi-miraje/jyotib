@@ -46,6 +46,6 @@ make assets PORTFOLIO=/absolute/path/to/original-portfolio.pdf
 
 ## Migration and original source
 
-The complete Sites source history is retained, with imported version 4 at tag `sites-original-v4` (`8f7ed6f238a1f4a81f5e3ee01eb4d189d6fea671`). The original deployment files (`.openai/`, `worker/`, `dist/server/` and Worker scripts) remain as historical source; GitHub Pages does not execute or publish them. The original README is in `docs/original-sites-readme.md`.
+The complete Sites source history is retained, with imported version 6 at tag `sites-original-v6` (`dd27f93e100b7377c2825927511e7465ee2c1be1`). The original deployment files (`.openai/`, `worker/`, `dist/server/` and Worker scripts) remain as historical source; GitHub Pages does not execute or publish them. The original README is in `docs/original-sites-readme.md`.
 
 See `docs/MIGRATION.md` for parity checks, hosting differences and DNS configuration. Historical draft/publication notes in `REVIEW.md` remain available for future content changes; this migration copies the version already live on November 2, 2026.

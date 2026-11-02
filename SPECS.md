@@ -25,3 +25,8 @@
 - Canonicals use www.jyotib.com; image URLs use jyotib.com. Build unique page metadata, favicons, sitemap and robots. A self-contained Worker supplies real 301 host redirects without relying on client-side navigation.
 - Generate the phone-free PDF from the same role data as the site. Keep its existing URL, email and LinkedIn; no phone or street address.
 - Do not invent photo permission, savings baselines, credentials, project roles or dates. Keep unresolved claims and approvals in REVIEW.md. Publication is held for the user’s explicitly required Jyoti/SRM confirmations.
+
+## November 2, 2026 follow-up
+- User authorized publication and reported Jyoti’s verbal approval to use the project images. Do not retain the earlier publication hold. Record approval provenance accurately without inventing a written license.
+- Replace Seattle placeholders with exterior and interior photographs, with exterior images on the Projects cards and social previews.
+- User prefers a lighter, white-looking background. Use neutral near-white #fcfcfc instead of beige #f8f7f3; retain the existing layout, typography and navy accent.

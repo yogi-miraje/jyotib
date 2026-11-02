@@ -1,0 +1,193 @@
+{
+  "baseline": "dd27f93e100b7377c2825927511e7465ee2c1be1",
+  "source_version": 6,
+  "original_public_files": 88,
+  "local_http_files": 90,
+  "browser": {
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "identical": true,
+          "characters": 800,
+          "links": 12,
+          "images": 1
+        },
+        {
+          "path": "/portfolio/",
+          "identical": true,
+          "characters": 1246,
+          "links": 15,
+          "images": 6
+        },
+        {
+          "path": "/portfolio/gridline/",
+          "identical": true,
+          "characters": 1345,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/altaire-jackson/",
+          "identical": true,
+          "characters": 1480,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/parkers/",
+          "identical": true,
+          "characters": 1553,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/prime-medical/",
+          "identical": true,
+          "characters": 1571,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/police-lounge/",
+          "identical": true,
+          "characters": 1483,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/the-park/",
+          "identical": true,
+          "characters": 1723,
+          "links": 12,
+          "images": 3
+        },
+        {
+          "path": "/portfolio/burj-residence/",
+          "identical": true,
+          "characters": 1390,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/georg-jensen/",
+          "identical": true,
+          "characters": 1293,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/resume/",
+          "identical": true,
+          "characters": 2947,
+          "links": 10,
+          "images": 0
+        },
+        {
+          "path": "/contact/",
+          "identical": true,
+          "characters": 403,
+          "links": 12,
+          "images": 0
+        }
+      ]
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "identical": true,
+          "characters": 800,
+          "links": 12,
+          "images": 1
+        },
+        {
+          "path": "/portfolio/",
+          "identical": true,
+          "characters": 1246,
+          "links": 15,
+          "images": 6
+        },
+        {
+          "path": "/portfolio/gridline/",
+          "identical": true,
+          "characters": 1345,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/altaire-jackson/",
+          "identical": true,
+          "characters": 1480,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/parkers/",
+          "identical": true,
+          "characters": 1553,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/prime-medical/",
+          "identical": true,
+          "characters": 1571,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/police-lounge/",
+          "identical": true,
+          "characters": 1483,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/the-park/",
+          "identical": true,
+          "characters": 1723,
+          "links": 12,
+          "images": 3
+        },
+        {
+          "path": "/portfolio/burj-residence/",
+          "identical": true,
+          "characters": 1390,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/portfolio/georg-jensen/",
+          "identical": true,
+          "characters": 1293,
+          "links": 12,
+          "images": 4
+        },
+        {
+          "path": "/resume/",
+          "identical": true,
+          "characters": 2947,
+          "links": 10,
+          "images": 0
+        },
+        {
+          "path": "/contact/",
+          "identical": true,
+          "characters": 403,
+          "links": 12,
+          "images": 0
+        }
+      ]
+    },
+    "resume_download_sha256": "f01009186cd66a5684e3f826d74801446853942001429f65d0ca2283d1fb09b1"
+  }
+}

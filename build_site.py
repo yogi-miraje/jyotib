@@ -1,12 +1,13 @@
 """Build the separate HTML pages from content.json. See REVIEW.md before publication."""
 from html import escape as e
 from pathlib import Path
-import json
+import json,hashlib
 BASE=Path(__file__).parent
 ROOT=BASE/'public'
 D=json.loads((BASE/'content.json').read_text())
 NAME=D['name'];TITLE=D['title'];EMAIL=D['email'];LINKEDIN=D['linkedin'];ORIGIN=D['origin'];RESUME=D['resume'];PROJECTS=D['projects']
 PAGES=[]
+STYLE_VERSION=hashlib.sha256((ROOT/'styles.css').read_bytes()).hexdigest()[:12]
 RECORDS=json.loads((BASE/'asset-records.json').read_text()) if (BASE/'asset-records.json').exists() else []
 
 def link(href,label,cls='',external=False,download=False):
@@ -31,7 +32,7 @@ def layout(title,desc,active,body,path,ogimage):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(fulltitle)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{ORIGIN}{path}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(fulltitle)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{ORIGIN}{path}"><meta property="og:image" content="https://jyotib.com{ogimage}"><meta property="og:image:alt" content="{e(title)} — {NAME}"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#053369">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/styles.css"></head>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><link rel="stylesheet" href="/styles.css?v={STYLE_VERSION}"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="site-header wrap"><a class="brand" href="/" aria-label="Jyoti Bhadrashetti home">Jyoti Bhadrashetti</a><nav aria-label="Main navigation">{nav}</nav></header><main id="main">{body}</main>
 <footer class="site-footer wrap"><div>{link('mailto:'+EMAIL,'Email')}{link(LINKEDIN,'LinkedIn',external=True)}{link(RESUME,'Résumé (PDF)',download=True)}</div><p>© 2026 Jyoti Bhadrashetti</p></footer></body></html>'''
 
@@ -57,7 +58,8 @@ for i,p in enumerate(PROJECTS):
  count=len(p['photos']) if p['photos'] else len(p['photo_slots'])
  for j in range(count):
   caption=p['photos'][j][2] if p['photos'] else p['photo_slots'][j]+'. Photograph or plan pending approval.'
-  credit=f'<span class="image-credit">Project imagery: {e(p["firm"])} · Jyoti Bhadrashetti’s portfolio. Photographer not identified.</span>' if p['photos'] and p['photos'][j][0] is not None else ''
+  photo_credit=p.get('photo_credits',[])[j] if j<len(p.get('photo_credits',[])) else p.get('photo_credit','Project imagery: '+p['firm']+' · Jyoti Bhadrashetti’s portfolio.')
+  credit=f'<span class="image-credit">{e(photo_credit)}</span>' if p['photos'] and p['photos'][j][0] is not None else ''
   gallery+=f'<figure>{picture(p,j)}<figcaption>{e(caption)}{credit}</figcaption></figure>'
  sequence=[item for item in PROJECTS if item['featured']] if p['featured'] else PROJECTS
  position=next(n for n,item in enumerate(sequence) if item['slug']==p['slug'])

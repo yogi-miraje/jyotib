@@ -20,4 +20,4 @@ Generate content with `python3 build_site.py`, regenerate the PDF with `python3 
 
 The supplied 2026 résumé and earlier Drive portfolio are source documents. The original uploads are not modified. Confirmed public project references and unresolved facts are recorded in `REVIEW.md`. Existing private phone numbers are not retained in the rebuilt PDF or public output.
 
-**Save this revision without deployment until Jyoti’s factual review and SRM’s photo/financial permissions are complete.** The previous live version remains published in the meantime. No permission is inferred from an image being visible on a public website.
+The user authorized publication on November 2, 2026 and reported Jyoti’s verbal approval for image use. Photo sources and approval provenance are retained in asset-records.json. Preserve the existing public audience.

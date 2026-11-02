@@ -1,0 +1,10 @@
+{
+  "name": "jyoti-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "make dev",
+    "build": "make build",
+    "check": "make check"
+  }
+}
