@@ -42,4 +42,4 @@ Before migration, apex DNS returned `172.66.3.26` and `162.159.143.30`; `www` po
 
 Local parity passed. [GitHub Pages build and deployment succeeded](https://github.com/yogi-miraje/jyotib/actions/runs/41539525048) on November 2, 2026. GitHub Actions is the configured publishing source and `www.jyotib.com` is the configured custom domain.
 
-Namecheap's session expired before DNS could be edited. Domain cutover and GitHub's HTTPS certificate/enforcement remain pending sign-in. The existing live domain continues serving the original Sites publication in the meantime.
+On November 2, 2026, Namecheap DNS was updated to all four GitHub Pages A records and www CNAME yogi-miraje.github.io. Authoritative DNS confirms the changes. Mail and verification records were preserved. DNS propagation and GitHub certificate issuance are in progress; HTTPS enforcement remains pending the certificate.
