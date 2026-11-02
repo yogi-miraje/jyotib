@@ -20,8 +20,8 @@ for p in data['projects']:
     variant.thumbnail((maxwidth,2400),Image.Resampling.LANCZOS);variant.save(path,'WEBP',quality=q,method=6);q-=5
   records.append(dict(slug=p['slug'],index=i,width=im.width,height=im.height,file=f'/assets/projects/{p["slug"]}-{i}-large.webp',source_url='https://drive.google.com/file/d/1PMNVKv-gKaBzzzbplonBovruHO9isucU/view',source_page=page,pdf_image_xref=xref,caption=caption,credit=p['firm'],photographer='Not identified in supplied portfolio',permission='User-supplied portfolio; third-party photographer credit/permission to be confirmed before publication'))
 # Unique social previews for non-photo pages and the two approval-pending Seattle projects.
-font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
-serif='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'
+font=str(BASE/'resources/fonts/DejaVuSans.ttf')
+serif=str(BASE/'resources/fonts/DejaVuSerif.ttf')
 shares={'home':('Jyoti Bhadrashetti','Construction Manager · Seattle'),'projects':('Projects','Seattle · Dubai · Mumbai'),'resume':('Résumé','Experience and qualifications'),'contact':('Contact','jbhadrashetti@gmail.com'),'gridline':('Gridline Apartments','178 homes · Capitol Hill, Seattle'),'altaire-jackson':('Altaire at Jackson Park','207 affordable homes · North Seattle')}
 for slug,(title,sub) in shares.items():
  im=Image.new('RGB',(1200,630),'#f8f7f3');draw=ImageDraw.Draw(im);draw.line((72,72,1128,72),fill='#053369',width=3)

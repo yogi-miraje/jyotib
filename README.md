@@ -1,23 +1,51 @@
 # Jyoti Bhadrashetti
 
-A four-page professional website with individual project documents and a downloadable résumé.
+Jyoti's existing website, maintained locally and on GitHub Pages. The original HTML, CSS, images, résumé, content and project URLs are preserved. No Sites account, Node packages, database or Worker is needed to build or serve it.
 
-## Editing and building
+## Build and preview
 
-- `content.json`: shared website and PDF content; pending confirmations are in `REVIEW.md`.
-- `build_site.py`: generates Home, Projects, Résumé, Contact and existing project URLs, unique metadata, sitemap and robots.txt.
-- `public/styles.css`: responsive typography, colors and layout.
-- `scripts/build-resume.py`: regenerates the two-page PDF at the existing URL with embedded fonts and no phone number. Uses ReportLab.
-- `scripts/build-assets.py <portfolio.pdf>`: extracts recorded images from the supplied portfolio, creates responsive WebP variants, social previews and favicons. Uses PyMuPDF and Pillow. No artificial upscaling.
-- `asset-records.json`: source URL, PDF page, embedded image reference, credit, caption and permission status for each portfolio image.
-- `worker/index.mjs`: host redirects, document/asset serving, HEAD and cache handling.
-- `scripts/build-worker.py`: embeds generated pages and assets in a self-contained Worker under `dist/server/index.js`.
-- `scripts/check-worker.mjs`: verifies redirect status/location, canonical-host routes, PDF MIME/HEAD and missing-page handling.
+Requires Python 3.9+ and `make` (already available on this Mac).
 
-Generate content with `python3 build_site.py`, regenerate the PDF with `python3 scripts/build-resume.py`, then run `python3 scripts/build-worker.py` and `node scripts/check-worker.mjs`. The source hosting manifest preserves the existing project ID and uses the Worker build. All main navigation uses separate URLs and works without JavaScript.
+```sh
+make dev
+```
 
-## Sources and publication
+Open http://127.0.0.1:8000. Stop with Ctrl+C. Use `make dev PORT=8001` for another port. The server binds to this computer only.
 
-The supplied 2026 résumé and earlier Drive portfolio are source documents. The original uploads are not modified. Confirmed public project references and unresolved facts are recorded in `REVIEW.md`. Existing private phone numbers are not retained in the rebuilt PDF or public output.
+```sh
+make build           # regenerate the 12 HTML pages, sitemap and robots.txt
+make check           # build; check metadata, internal links, images and sitemap
+make check-original  # verify every original public file is unchanged
+python3 scripts/check-site.py --url http://127.0.0.1:8000
+```
 
-**Save this revision without deployment until Jyoti’s factual review and SRM’s photo/financial permissions are complete.** The previous live version remains published in the meantime. No permission is inferred from an image being visible on a public website.
+## Edit and publish
+
+| File | Purpose |
+| --- | --- |
+| `content.json` | Shared content, projects and résumé data |
+| `build_site.py` | Page templates and generated metadata |
+| `public/styles.css` | Existing responsive layout and typography |
+| `public/assets/` | Portrait, project images, social previews and original PDF |
+| `asset-records.json`, `REVIEW.md` | Image provenance and factual/permission review notes |
+| `.github/workflows/pages.yml` | Build/check on pull requests; deploy `public/` on pushes to `main` |
+
+After edits, run `make check`, review the local website, commit both source and generated output, and push to `main`. GitHub Actions builds and publishes automatically. The workflow rejects uncommitted generated-page differences. PDF/image regeneration is deliberately separate so ordinary deployments preserve the exact existing binary assets.
+
+GitHub Pages uses custom domain `www.jyotib.com`. Its domain setting lives in **Settings → Pages**; `public/CNAME` records the intended domain. Paths are rooted at `/`, matching the custom domain. The repository's `/jyotib/` project URL is not a separate preview environment.
+
+## Optional PDF and image authoring
+
+```sh
+make setup
+make resume
+make assets PORTFOLIO=/absolute/path/to/original-portfolio.pdf
+```
+
+`make setup` installs pinned ReportLab, Pillow and PyMuPDF into `.venv`. Bundled DejaVu fonts remove the original Linux font-path dependency. These commands replace the corresponding assets; run them only when intentionally updating those assets. The original private source uploads were not present in Sites' source repository and are not required for everyday maintenance.
+
+## Migration and original source
+
+The complete Sites source history is retained, with imported version 4 at tag `sites-original-v4` (`8f7ed6f238a1f4a81f5e3ee01eb4d189d6fea671`). The original deployment files (`.openai/`, `worker/`, `dist/server/` and Worker scripts) remain as historical source; GitHub Pages does not execute or publish them. The original README is in `docs/original-sites-readme.md`.
+
+See `docs/MIGRATION.md` for parity checks, hosting differences and DNS configuration. Historical draft/publication notes in `REVIEW.md` remain available for future content changes; this migration copies the version already live on November 2, 2026.

@@ -9,10 +9,11 @@ from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,KeepTogether,P
 from reportlab.lib.enums import TA_LEFT
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-pdfmetrics.registerFont(TTFont("ResumeSans", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
-pdfmetrics.registerFont(TTFont("ResumeBold", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
-pdfmetrics.registerFont(TTFont("ResumeSerif", "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"))
 BASE=Path(__file__).resolve().parents[1]
+FONTS=BASE/'resources/fonts'
+pdfmetrics.registerFont(TTFont("ResumeSans", str(FONTS/'DejaVuSans.ttf')))
+pdfmetrics.registerFont(TTFont("ResumeBold", str(FONTS/'DejaVuSans-Bold.ttf')))
+pdfmetrics.registerFont(TTFont("ResumeSerif", str(FONTS/'DejaVuSerif.ttf')))
 d=json.loads((BASE/'content.json').read_text())
 OUT=BASE/'public/assets/jyoti-bhadrashetti-resume.pdf'
 navy=colors.HexColor('#053369');ink=colors.HexColor('#202320');muted=colors.HexColor('#62685f')
