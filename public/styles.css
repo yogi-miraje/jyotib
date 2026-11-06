@@ -18,13 +18,13 @@
 
 .brand:hover{text-decoration:none}
 
-.contact-heading{padding-top:32px}.contact-heading>p{margin-top:12px}@media(max-width:700px){.contact-heading{padding-top:20px}.contact-heading>p{margin-top:10px}}
+.contact-heading{padding-block:24px 28px}
 
 .page-heading h1.location-heading{font-size:32px;line-height:1.2;letter-spacing:-.02em}
 
-.resume-heading{padding-top:24px;padding-bottom:28px}.resume-heading>p{margin-top:0}@media(max-width:700px){.resume-heading{padding-top:20px;padding-bottom:20px}}
+.resume-heading{padding-top:24px;padding-bottom:28px}.resume-heading>p{margin-top:16px}@media(max-width:700px){.resume-heading,.contact-heading{padding-block:20px}}
 
-.resume-heading>.button{display:flex;width:fit-content;margin-left:auto}
+.resume-heading>.button,.contact-heading>.button{display:flex;width:fit-content;max-width:100%;margin:0 0 0 auto;text-align:center}
 
 .home-sidebar{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;padding-block:32px 48px;align-items:stretch}
 .home-sidebar .home-highlights{background:#edf5fc;padding:32px;display:flex;flex-direction:column;justify-content:space-between;min-width:0}
