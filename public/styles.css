@@ -45,10 +45,13 @@
 .profile-credentials li{position:relative;padding-left:15px}
 .profile-credentials li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;background:var(--accent)}
 .profile-credentials li+li{margin-top:10px}
-.home-sidebar .intro-copy{border-top:1px solid var(--line);padding-top:24px;margin-top:32px;font-size:16px;line-height:1.7;max-width:none}
+.home-sidebar .intro-copy{padding-top:0;margin-top:20px;font-size:16px;line-height:1.7;max-width:none}
 @media(max-width:1000px){.home-sidebar{gap:24px}.home-sidebar .home-highlights{padding:24px}.profile-top{gap:14px}.home-sidebar .home-numbers p{font-size:14px}}
 @media(max-width:600px){.home-sidebar{grid-template-columns:1fr;gap:24px;padding-block:24px 32px}.home-sidebar .home-profile{padding:0}.profile-top{grid-template-columns:minmax(0,1fr) 40%;gap:10px}.profile-credentials{font-size:12px}.profile-credentials li+li{margin-top:4px}.home-profile h1{font-size:clamp(22px,5.5vw,29px);margin-bottom:8px}.home-sidebar .home-numbers h2{font-size:32px}.home-sidebar .intro-copy{font-size:16px}.home-sidebar .home-numbers>div{padding-bottom:24px}}
 
 @media(min-width:601px) and (max-width:850px){.home-sidebar{grid-template-columns:1fr}.profile-credentials{font-size:13px}}
 
 @media(max-width:360px){.profile-credentials{font-size:11px}.profile-credentials li+li{margin-top:2px}}
+
+.resume-heading>.button{margin:20px 0 0}
+.home-sidebar .portrait img{position:static;height:auto;display:block}
