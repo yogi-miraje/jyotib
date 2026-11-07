@@ -36,13 +36,13 @@
 .home-sidebar .home-numbers>div+div:before{top:45px}
 .home-sidebar .home-numbers h2{font:400 clamp(28px,3.1vw,42px)/1.15 var(--serif);letter-spacing:-.025em;color:var(--accent)}
 .home-sidebar .home-numbers p{font-size:16px;line-height:1.65;margin-top:12px}
-.home-sidebar .hero-actions{margin-top:24px;gap:10px}
-.home-sidebar .hero-actions .button{padding:11px 14px;font-size:13px;border-radius:4px}
+.home-resume{display:none}
+@media(max-width:600px){.home-resume{display:block;margin-top:20px}}
 .home-sidebar .home-profile{min-width:0;padding-block:16px}
 .profile-top{display:grid;grid-template-columns:minmax(0,1fr) 38%;gap:20px;align-items:start}
 .profile-details h1{font-size:clamp(27px,3vw,40px);line-height:1.15;letter-spacing:-.025em;color:var(--accent);margin:12px 0 20px}
 .home-sidebar .portrait{margin:0;order:0}
-.home-sidebar .portrait img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:50%}
+.home-sidebar .portrait img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:0}
 .profile-credentials{list-style:none;padding:0;margin:0;font-size:13px;line-height:1.6}
 .profile-credentials li{position:relative;padding-left:15px}
 .profile-credentials li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;background:var(--accent)}
