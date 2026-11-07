@@ -56,9 +56,10 @@
 .resume-heading>.button{margin:20px 0 0}
 .home-sidebar .portrait img{position:static;height:auto;display:block}
 
+.profile-top{display:flow-root}
+.profile-details{display:contents}
+.home-sidebar .portrait{float:right;width:32%;max-width:190px;margin:0 0 16px 18px}
+.home-sidebar .portrait img{width:100%;height:auto}
 @media(max-width:600px){
-  .profile-top{display:flow-root}
-  .profile-details{display:contents}
-  .home-sidebar .portrait{float:right;width:32%;max-width:150px;margin:0 0 16px 18px}
-  .home-sidebar .portrait img{width:100%;height:auto}
+  .home-sidebar .portrait{max-width:150px}
 }
