@@ -69,11 +69,15 @@
   .home-sidebar .portrait{width:28%;max-width:260px;margin:0 0 16px 32px}
   .home-sidebar .intro-copy{max-width:75ch}
   .home-sidebar .home-highlights{padding:24px 32px}
-  .home-sidebar .home-numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:0}
+  .home-sidebar .home-numbers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:0}
   .home-sidebar .home-numbers:before,.home-sidebar .home-numbers>div:before{display:none}
   .home-sidebar .home-numbers>div,.home-sidebar .home-numbers>div+div{padding:0;border:0}
   .home-sidebar .home-numbers>div+div{border-left:1px solid #c7d4df;padding-left:24px}
   .home-sidebar .home-numbers h2{font-size:clamp(25px,2.5vw,34px)}
+}
+@media(min-width:851px) and (max-width:1099px){
+  .home-sidebar .home-numbers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .home-sidebar .home-numbers>div:nth-child(3){border-left:0;padding-left:0}
 }
 .home-sidebar{row-gap:96px}
 .profile-details{display:flow-root}
