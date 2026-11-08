@@ -2,7 +2,7 @@
 
 ## Altaire at Queen Anne
 
-Project facts and current construction status are sourced from SRM Development’s project page; Jyoti’s role and team size are from her November 2026 résumé. The user requested this project on the website. An image placeholder is used pending permission for project-specific imagery. Recheck the construction status and confirm the project details before later updates.
+Project facts and construction status are sourced from SRM Development’s project and construction update pages; Jyoti’s role and team size are from her November 2026 résumé. The user requested use of available SRM imagery. The rendering and construction photograph are credited to SRM; no separate written license was supplied. Recheck the construction status and schedule before later updates.
 
 ## November 7, 2026 résumé update
 

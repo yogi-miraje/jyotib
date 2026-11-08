@@ -117,19 +117,23 @@
         ["Type", "Affordable multifamily"],
         ["Size", "114 homes"],
         ["Status", "Under construction"],
+        ["Scheduled completion", "Q4 2027 (July 2026 update)"],
         ["Developer", "SRM Development"],
         ["Partner", "Urban League of Metropolitan Seattle"]
       ],
       "summary": "Construction management for a 114-home affordable housing community in Lower Queen Anne.",
-      "source": "SRM Development project page and Jyoti’s 2026 résumé",
+      "source": "SRM Development project and construction updates; Jyoti’s 2026 résumé",
       "featured": true,
       "cardfacts": "Seattle · 114 affordable homes · Under construction",
       "role": "Project Manager, SRM Construction. I lead a team of six across cost control, procurement, subcontractor management and schedule.",
-      "scope": "The community includes studios and one-, two- and three-bedroom homes, with one level of below-grade parking. I coordinate procurement, project costs, subcontractors and the construction schedule.",
-      "result": "The project is under construction and will provide 114 affordable homes in Lower Queen Anne.",
-      "photos": [],
-      "photo_slots": ["Under construction"],
-      "urls": ["https://www.srmdevelopment.com/portfolio/altaire-at-queen-anne/"]
+      "scope": "The seven-story community includes studios and one-, two- and three-bedroom homes, with below-grade parking. Planned amenities include a community room, bike parking, in-unit laundry and a dog run. I coordinate procurement, project costs, subcontractors and the construction schedule.",
+      "result": "The project will provide 114 affordable homes in Lower Queen Anne. SRM’s July 2026 update scheduled completion for the fourth quarter of 2027; its October update reported progress on wood framing.",
+      "photos": [
+        ["https://www.srmdevelopment.com/wp-content/uploads/2026/01/Altaire-Queen-Anne-scaled.jpg", null, "Architectural rendering of Altaire at Queen Anne."] ,
+        ["https://www.srmdevelopment.com/wp-content/uploads/2026/10/2-AQA-092626-DJI_20260928132227_0007_D.jpg", null, "Construction progress at Altaire at Queen Anne, shown in SRM’s October 2026 update."]
+      ],
+      "photo_credits": ["Rendering via SRM Development.", "Photo via SRM Development."],
+      "urls": ["https://www.srmdevelopment.com/altaire-at-queen-anne/", "https://www.srmdevelopment.com/construction-news/framing-begins-altaire-at-queen-anne-shifts-from-concrete-to-wood/"]
     },
     {
       "slug": "gridline",

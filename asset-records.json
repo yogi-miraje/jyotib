@@ -1,5 +1,31 @@
 [
   {
+    "slug": "altaire-queen-anne",
+    "index": 1,
+    "width": 2400,
+    "height": 1488,
+    "file": "/assets/projects/altaire-queen-anne-1-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2026/01/Altaire-Queen-Anne-scaled.jpg",
+    "source_page": "https://www.srmdevelopment.com/altaire-at-queen-anne/",
+    "caption": "Architectural rendering of Altaire at Queen Anne.",
+    "credit": "Rendering via SRM Development.",
+    "photographer": "Not identified by source",
+    "permission": "User requested use of available SRM website imagery; no separate written license was supplied."
+  },
+  {
+    "slug": "altaire-queen-anne",
+    "index": 2,
+    "width": 1200,
+    "height": 783,
+    "file": "/assets/projects/altaire-queen-anne-2-large.webp",
+    "source_url": "https://www.srmdevelopment.com/wp-content/uploads/2026/10/2-AQA-092626-DJI_20260928132227_0007_D.jpg",
+    "source_page": "https://www.srmdevelopment.com/construction-news/framing-begins-altaire-at-queen-anne-shifts-from-concrete-to-wood/",
+    "caption": "Construction progress at Altaire at Queen Anne, shown in SRM’s October 2026 update.",
+    "credit": "Photo via SRM Development.",
+    "photographer": "Not identified by source",
+    "permission": "User requested use of available SRM website imagery; no separate written license was supplied."
+  },
+  {
     "slug": "gridline",
     "index": 1,
     "width": 800,
