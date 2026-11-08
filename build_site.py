@@ -43,7 +43,7 @@ def write(path,title,desc,active,body,ogimage):
 intro=''.join(f'<p>{e(p)}</p>' for p in D['intro'])
 profile_intro=''.join(f'<p>{e(p)}</p>' for p in D['intro'][1:])
 home=f'''<section class="wrap home-split home-sidebar"><div class="home-profile"><div class="profile-top"><h1>{e(D['intro'][0])}</h1><div class="profile-details"><figure class="portrait"><img src="/assets/jyoti-bhadrashetti.jpeg" width="1066" height="1280" alt="Jyoti Bhadrashetti" fetchpriority="high"></figure><div class="intro-copy">{profile_intro}</div></div></div></div><div class="home-highlights"><section class="home-numbers" aria-label="Selected project facts"><div><h2>178 homes</h2><p>Gridline Apartments<br>$101 million project value</p></div><div><h2>207 affordable homes</h2><p>Altaire at Jackson Park<br>Finished three months early</p></div><div><h2>14+ years</h2><p>Construction and architecture<br>Seattle, Dubai and Mumbai</p></div></section></div></section>'''
-write('/','Home','Jyoti Bhadrashetti is a Seattle construction manager at SRM Construction, with multifamily housing work and earlier experience in Dubai and Mumbai.','Home',home,'/assets/share-home.jpg')
+write('/','Home','Jyoti Bhadrashetti is a Seattle project manager at SRM Construction, with housing and hotel projects and earlier experience in Dubai and Mumbai.','Home',home,'/assets/share-home.jpg')
 
 def card(p,featured=False):
  tag='h2' if featured else 'h3'

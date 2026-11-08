@@ -1,5 +1,9 @@
 # Jyoti site revision — publication review
 
+## November 7, 2026 résumé update
+
+The user requested updates from Jyoti’s newly emailed résumé. The site now reflects her Project Manager title, current projects and additional qualifications. The supplied PDF includes her phone number and Bothell location, unlike the previous public PDF; review those details before publishing. The savings figures below remain subject to the existing confirmation notes.
+
 **Status: publication authorized by the user.** On November 2, 2026, the user instructed publication and then reported Jyoti’s verbal approval to use the images. This supersedes the earlier hold. No separate written license or independent factual confirmation is claimed; the research notes below remain an internal record.
 
 ## Ready to review
