@@ -1,5 +1,9 @@
 # Jyoti site revision — publication review
 
+## Altaire at Queen Anne
+
+Project facts and current construction status are sourced from SRM Development’s project page; Jyoti’s role and team size are from her November 2026 résumé. The user requested this project on the website. An image placeholder is used pending permission for project-specific imagery. Recheck the construction status and confirm the project details before later updates.
+
 ## November 7, 2026 résumé update
 
 The user requested updates from Jyoti’s newly emailed résumé. The site now reflects her Project Manager title, current projects and additional qualifications. The supplied PDF includes her phone number and Bothell location, unlike the previous public PDF; review those details before publishing. The savings figures below remain subject to the existing confirmation notes.

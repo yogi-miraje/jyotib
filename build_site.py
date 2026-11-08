@@ -19,6 +19,8 @@ def link(href,label,cls='',external=False,download=False):
 def picture(p,index=0,sizes='(max-width: 700px) 100vw, 1120px'):
  if not p['photos'] or p['photos'][index][0] is None:
   label=p['photo_slots'][index] if not p['photos'] else 'Additional project photograph'
+  if not p['photos']:
+   return f'<div class="photo-placeholder"><span>{e(label)}</span></div>'
   return f'<div class="photo-placeholder" role="img" aria-label="{e(p["name"])}: {e(label.lower())}, approved photograph pending"><span>{e(label)}</span><small>Approved image pending</small></div>'
  stem=f'/assets/projects/{p["slug"]}-{index+1}'
  width=next((r['width'] for r in RECORDS if r.get('slug')==p['slug'] and r.get('index')==index+1),2400)
@@ -50,12 +52,12 @@ def card(p,featured=False):
  return f'''<article class="project-card"><a href="/portfolio/{p['slug']}/"><{tag}>{e(p['name'])}</{tag}><p class="project-facts">{e(p['cardfacts'])}</p><div class="card-media">{picture(p,sizes='(max-width: 700px) 100vw, 560px')}</div><p class="card-summary">{e(p['summary'])}</p></a></article>'''
 
 portfolio='<section class="wrap page-heading"><h1 class="location-heading">Seattle, WA</h1><p>Recent multifamily housing in Seattle, followed by selected architecture and interior work.</p></section><div class="wrap"><div class="featured-grid">'+''.join(card(p,True) for p in PROJECTS if p['region']=='Seattle')+'</div><section class="earlier-work"><h2>Dubai</h2><p>Restaurant, healthcare and club interiors in Dubai.</p><div class="earlier-grid">'+''.join(card(p) for p in PROJECTS if p['region']=='Dubai' and p['featured'])+'</div></section><section class="earlier-work"><h2>Mumbai</h2><p>Residential architecture in Mumbai.</p><div class="earlier-grid">'+''.join(card(p) for p in PROJECTS if p['region']=='Mumbai' and p['featured'])+'</div></section></div>'
-write('/portfolio/','Projects','Selected projects by Jyoti Bhadrashetti: Gridline Apartments, Altaire at Jackson Park, and earlier interior fit-outs and architecture in Dubai and Mumbai.','Projects',portfolio,'/assets/share-projects.jpg')
+write('/portfolio/','Projects','Selected projects by Jyoti Bhadrashetti: Altaire at Queen Anne, Gridline Apartments, Altaire at Jackson Park, and earlier work in Dubai and Mumbai.','Projects',portfolio,'/assets/share-projects.jpg')
 
 for i,p in enumerate(PROJECTS):
  facts=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in p['facts'])
  gallery=''
- count=len(p['photos']) if p['photos'] else len(p['photo_slots'])
+ count=len(p['photos'])
  for j in range(count):
   caption=p['photos'][j][2] if p['photos'] else p['photo_slots'][j]+'. Photograph or plan pending approval.'
   photo_credit=p.get('photo_credits',[])[j] if j<len(p.get('photo_credits',[])) else p.get('photo_credit','Project imagery: '+p['firm']+' · Jyoti Bhadrashetti’s portfolio.')
@@ -66,8 +68,9 @@ for i,p in enumerate(PROJECTS):
  prev=sequence[(position-1)%len(sequence)];nxt=sequence[(position+1)%len(sequence)]
  nav=f'<nav class="project-pagination" aria-label="Project navigation"><a href="/portfolio/{prev["slug"]}/"><span>Previous project</span>{e(prev["name"])}</a><a href="/portfolio/{nxt["slug"]}/"><span>Next project</span>{e(nxt["name"])}</a></nav>'
  story=''.join(f'<section><h2>{heading}</h2><p>{e(p[key])}</p></section>' for heading,key in [('My role','role'),('Scope','scope'),('Result','result')])
- body=f'''<article class="wrap project-page"><a class="back-link" href="/portfolio/">All projects</a><header class="project-heading"><h1>{e(p['name'])}</h1><p>{e(p['summary'])}</p></header><dl class="project-details">{facts}</dl><div class="project-story">{story}</div><section class="project-gallery" aria-label="{e(p['name'])} images">{gallery}</section>{nav}</article>'''
- og=f'/assets/projects/{p["slug"]}-1-large.webp' if p['photos'] else f'/assets/share-{p["slug"]}.jpg'
+ gallery_section=f'<section class="project-gallery" aria-label="{e(p["name"])} images">{gallery}</section>' if gallery else ''
+ body=f'''<article class="wrap project-page"><a class="back-link" href="/portfolio/">All projects</a><header class="project-heading"><h1>{e(p['name'])}</h1><p>{e(p['summary'])}</p></header><dl class="project-details">{facts}</dl><div class="project-story">{story}</div>{gallery_section}{nav}</article>'''
+ og=f'/assets/projects/{p["slug"]}-1-large.webp' if p['photos'] else '/assets/share-projects.jpg'
  write('/portfolio/'+p['slug']+'/',p['name'],p['summary']+' '+p['cardfacts']+'.','Projects',body,og)
 
 rows=''

@@ -106,6 +106,32 @@
   ],
   "projects": [
     {
+      "slug": "altaire-queen-anne",
+      "name": "Altaire at Queen Anne",
+      "region": "Seattle",
+      "type": "Affordable housing",
+      "location": "Lower Queen Anne, Seattle",
+      "firm": "SRM Construction",
+      "facts": [
+        ["Location", "118 W Mercer St, Seattle"],
+        ["Type", "Affordable multifamily"],
+        ["Size", "114 homes"],
+        ["Status", "Under construction"],
+        ["Developer", "SRM Development"],
+        ["Partner", "Urban League of Metropolitan Seattle"]
+      ],
+      "summary": "Construction management for a 114-home affordable housing community in Lower Queen Anne.",
+      "source": "SRM Development project page and Jyoti’s 2026 résumé",
+      "featured": true,
+      "cardfacts": "Seattle · 114 affordable homes · Under construction",
+      "role": "Project Manager, SRM Construction. I lead a team of six across cost control, procurement, subcontractor management and schedule.",
+      "scope": "The community includes studios and one-, two- and three-bedroom homes, with one level of below-grade parking. I coordinate procurement, project costs, subcontractors and the construction schedule.",
+      "result": "The project is under construction and will provide 114 affordable homes in Lower Queen Anne.",
+      "photos": [],
+      "photo_slots": ["Under construction"],
+      "urls": ["https://www.srmdevelopment.com/portfolio/altaire-at-queen-anne/"]
+    },
+    {
       "slug": "gridline",
       "name": "Gridline Apartments",
       "region": "Seattle",
